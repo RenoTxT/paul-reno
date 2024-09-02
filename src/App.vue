@@ -7,4 +7,5 @@ import maintenance from './components/maintenance.vue'
 </template>
 
 <style scoped>
+
 </style>

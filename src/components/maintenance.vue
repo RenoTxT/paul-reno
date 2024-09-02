@@ -9,4 +9,9 @@
 </template>
 
 <style scoped>
+.container-fluid{
+  height: 100vh;
+  align-content: center;
+}
+
 </style>
