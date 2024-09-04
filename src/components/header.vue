@@ -39,16 +39,7 @@ onMounted(() => {
         <!-- <div class="row currency-heading">
             <h1 class="fs-2 text-light text-center">My Country Currency</h1>
         </div> -->
-        <div class="row currency">
-            <div class="col text-light text-center p-0 m-0 text-heading">
-                <div class="row  m-0 p-0 the-text"><h1 class="vertical-text">K<br><br>G<br>r<br>o<br>u<br>p<br><br>C<br>u<br>r<br>r<br>e<br>n<br>c<br>y</h1></div>
-            </div>
-            <div class="col trading-view-chart m-0">
-                <div id="tradingview-widget-container" class="tradingview-widget-container"></div>
-            </div>
-        </div>
         <div class="row">
-            <h1>Enjoy Some Music!</h1>
         </div>
     </div>
 </template>
@@ -87,24 +78,6 @@ img{
     border-radius: 15rem;
 }
 
-.currency{
-    padding-top: 25vh;
-    padding-left: 12.5vw;
-}
-
-.text-heading{
-    align-content: center;
-    padding: 0;
-    max-width: 5vw;
-}
-
-.the-text{
-    height: 85vh;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(0.2rem);
-    border-radius: 1rem;
-}
 
 .description{
     width: 40%;
@@ -120,28 +93,4 @@ img{
     height: 25vh;
 }
 
-.vertical-text{
-    color: rgb(255, 255, 255);
-    font-size: 1.75rem;
-}
-.currency-heading{
-    padding-top: 15vh;
-}
-
-.trading-view-chart{
-    align-content: center;
-    justify-content: center;
-    padding-top: 1rem;
-    padding-left: 5vw;
-}
-
-
-.tradingview-widget-container {
-    border-radius: 1rem; /* Rounded corners */
-    overflow: hidden;
-    max-width: 75vw;
-    min-width: 25vw;
-    width: 100%; /* Make the container responsive */
-    height: 30vh; /* Adjust the height as needed */
-}
 </style>
