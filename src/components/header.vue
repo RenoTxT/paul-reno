@@ -36,6 +36,19 @@ onMounted(() => {
                 <h3>My name is Kanna<br>The Magic Cat of Codemaxxing Kingdom!</h3>
             </div>
         </div>
+        <div class="row text-center text-light pt-5">
+            <h1>Top 3 Favorite Music</h1>
+        </div>
+        <div class="row text-center py-5">
+            <div class="col">
+                <iframe class="spotify" src="https://open.spotify.com/embed/track/5f9W174NPbE0OiQeo0D5Wx?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div class="col">
+                <iframe class="spotify" src="https://open.spotify.com/embed/track/6CRX3ENpLq42r0iBSjOqr1?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div class="col">
+                <iframe class="spotify" src="https://open.spotify.com/embed/track/0EDgUNdoWnRslGw6epuJY9?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
+        </div>
         <!-- <div class="row currency-heading">
             <h1 class="fs-2 text-light text-center">My Country Currency</h1>
         </div> -->
@@ -56,10 +69,18 @@ img{
     object-fit: cover; /* Cover the container while maintaining aspect ratio */
 }
 
+
 .first{
     height: auto;
     align-content: center;
     align-items: center;
+}
+
+.spotify{
+    border-radius: 2rem;
+    min-width: 350px;
+    max-width: 350px;
+    overflow: hidden;
 }
 
 .images{
