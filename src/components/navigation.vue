@@ -1,5 +1,5 @@
 <script setup>
-
+import { RouterLink } from 'vue-router';
 </script>
 
 <template>
@@ -12,7 +12,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="#" id="btnA">Home</a>
+                        <RouterLink to="/" class="nav-link" id="btnA">Home</RouterLink>
                     </div>
                 </div>
             </div>
